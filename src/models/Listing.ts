@@ -26,6 +26,6 @@ const ListingSchema = new Schema({
     updated_at: { type: Date, default: Date.now },
 });
 
-const Listing = models.Listing || model('Listing', ListingSchema);
+const Listing = models.Listing || model('listings', ListingSchema);
 
 export default Listing;

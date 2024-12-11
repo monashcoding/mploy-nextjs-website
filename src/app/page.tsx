@@ -111,7 +111,7 @@ const Home = () => {
           </thead>
           <tbody>
           {listings.map((listing) => (
-              <tr key={listing.id}>
+              <tr key={listing._id}>
                 <td className="border border-gray-300 px-4 py-2">{listing.title}</td>
                 <td className="border border-gray-300 px-4 py-2">{listing.company.name}</td>
                 <td className="border border-gray-300 px-4 py-2">{listing.locations.join(', ')}</td>
